@@ -14,6 +14,10 @@
 		CF02AF4F29E561610098AEBE /* spotifyuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF02AF4E29E561610098AEBE /* spotifyuiTests.swift */; };
 		CF02AF5929E561610098AEBE /* spotifyuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF02AF5829E561610098AEBE /* spotifyuiUITests.swift */; };
 		CF02AF5B29E561610098AEBE /* spotifyuiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF02AF5A29E561610098AEBE /* spotifyuiUITestsLaunchTests.swift */; };
+		CFF6C73A29E9774900FB00B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF02AF4129E561610098AEBE /* Assets.xcassets */; };
+		CFF6C73B29E9774900FB00B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF02AF4129E561610098AEBE /* Assets.xcassets */; };
+		CFF6C73D29E978D400FB00B5 /* harry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CFF6C73C29E978D400FB00B5 /* harry.mp3 */; };
+		CFF6C73E29E978D400FB00B5 /* harry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CFF6C73C29E978D400FB00B5 /* harry.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,7 @@
 		CF02AF5429E561610098AEBE /* spotifyuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spotifyuiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF02AF5829E561610098AEBE /* spotifyuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spotifyuiUITests.swift; sourceTree = "<group>"; };
 		CF02AF5A29E561610098AEBE /* spotifyuiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spotifyuiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFF6C73C29E978D400FB00B5 /* harry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = harry.mp3; path = spotifyui/Audio/harry.mp3; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +99,7 @@
 		CF02AF3C29E5615F0098AEBE /* spotifyui */ = {
 			isa = PBXGroup;
 			children = (
+				CFF6C73F29E9790100FB00B5 /* Audio */,
 				CF02AF3D29E5615F0098AEBE /* spotifyuiApp.swift */,
 				CF02AF3F29E5615F0098AEBE /* ContentView.swift */,
 				CF02AF4129E561610098AEBE /* Assets.xcassets */,
@@ -125,6 +131,14 @@
 				CF02AF5A29E561610098AEBE /* spotifyuiUITestsLaunchTests.swift */,
 			);
 			path = spotifyuiUITests;
+			sourceTree = "<group>";
+		};
+		CFF6C73F29E9790100FB00B5 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				CFF6C73C29E978D400FB00B5 /* harry.mp3 */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +204,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					harry,
+				);
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
@@ -233,6 +250,7 @@
 			files = (
 				CF02AF4529E561610098AEBE /* Preview Assets.xcassets in Resources */,
 				CF02AF4229E561610098AEBE /* Assets.xcassets in Resources */,
+				CFF6C73D29E978D400FB00B5 /* harry.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFF6C73A29E9774900FB00B5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +266,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFF6C73B29E9774900FB00B5 /* Assets.xcassets in Resources */,
+				CFF6C73E29E978D400FB00B5 /* harry.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
